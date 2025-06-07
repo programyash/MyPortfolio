@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    min-width: 70%;
+
+    .logo-name {
+        text-decoration: none;
+    }
+
+    h1 {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+.sign-btn button {
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    width: 130px;
+    height: 45px;
+    padding: 2px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: #024590;
+        color: white;
+    }
+}
